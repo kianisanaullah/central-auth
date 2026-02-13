@@ -13,11 +13,17 @@ Perfect for organizations running many apps that need:
 
 ✨ Features
 	•	🔐 Central users & roles from shared DB
+	
 	•	🧩 Plug-and-play integration
+	
 	•	⚙️ Fully configurable (connection, tables, columns)
+	
 	•	🧠 Works with existing Laravel Auth
+	
 	•	🛡 Role-based middleware (central.role)
+	
 	•	🔄 Environment-driven model switching
+	
 	•	🚫 No code changes required per project (if using AUTH_MODEL)
 
 ⸻
