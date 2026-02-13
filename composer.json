@@ -1,0 +1,26 @@
+{
+  "name": "kianisanaullah/central-auth",
+  "description": "Central/shared DB users & roles for Laravel (configurable connection/tables).",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "^12.0|^11.0|^10.0",
+    "illuminate/database": "^12.0|^11.0|^10.0",
+    "illuminate/auth": "^12.0|^11.0|^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kiani\\CentralAuth\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Kiani\\CentralAuth\\CentralAuthServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
